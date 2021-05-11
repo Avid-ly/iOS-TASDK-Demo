@@ -22,9 +22,10 @@
 		AA49695F24484C020058B044 /* SelfTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49695524484C020058B044 /* SelfTextFieldView.m */; };
 		AA49696024484C020058B044 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49695724484C020058B044 /* DemoViewController.m */; };
 		AA4CDA2A24A3199C00FE4610 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4CDA2924A3199C00FE4610 /* libc++.tbd */; };
+		AA5BDAB3264A64B7004221FF /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AA5BDAB1264A64B7004221FF /* version.md */; };
+		AA5BDAB4264A64B7004221FF /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BDAB2264A64B7004221FF /* TraceAnalysisSDK.framework */; };
 		AA75653E244AB334002A4A74 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75653D244AB334002A4A74 /* OtherViewController.m */; };
 		AA756768244ACEFB002A4A74 /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA756767244ACEFB002A4A74 /* AppsFlyerLib.framework */; };
-		AA7A65EC25FB102600EAD279 /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7A65EB25FB102600EAD279 /* TraceAnalysisSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,11 @@
 		AA49695724484C020058B044 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		AA49695824484C020058B044 /* SelfTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfTextFieldView.h; sourceTree = "<group>"; };
 		AA4CDA2924A3199C00FE4610 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AA5BDAB1264A64B7004221FF /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
+		AA5BDAB2264A64B7004221FF /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
 		AA75653C244AB334002A4A74 /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		AA75653D244AB334002A4A74 /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		AA756767244ACEFB002A4A74 /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
-		AA7A65EB25FB102600EAD279 /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +71,7 @@
 				AA4CDA2A24A3199C00FE4610 /* libc++.tbd in Frameworks */,
 				22C298A91F04EB0B0039998B /* libsqlite3.tbd in Frameworks */,
 				AA756768244ACEFB002A4A74 /* AppsFlyerLib.framework in Frameworks */,
-				AA7A65EC25FB102600EAD279 /* TraceAnalysisSDK.framework in Frameworks */,
+				AA5BDAB4264A64B7004221FF /* TraceAnalysisSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,9 +206,18 @@
 		AA4CDA1F24A3040C00FE4610 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				AA7A65EA25FB102600EAD279 /* TraceAnalysisSDK_4009_1 */,
+				AA5BDAB0264A64B7004221FF /* TraceAnalysisSDK_4.1.0.1_1 */,
 			);
 			path = SDK;
+			sourceTree = "<group>";
+		};
+		AA5BDAB0264A64B7004221FF /* TraceAnalysisSDK_4.1.0.1_1 */ = {
+			isa = PBXGroup;
+			children = (
+				AA5BDAB1264A64B7004221FF /* version.md */,
+				AA5BDAB2264A64B7004221FF /* TraceAnalysisSDK.framework */,
+			);
+			path = TraceAnalysisSDK_4.1.0.1_1;
 			sourceTree = "<group>";
 		};
 		AA756766244ACEFB002A4A74 /* ThirdFramework */ = {
@@ -215,14 +226,6 @@
 				AA756767244ACEFB002A4A74 /* AppsFlyerLib.framework */,
 			);
 			path = ThirdFramework;
-			sourceTree = "<group>";
-		};
-		AA7A65EA25FB102600EAD279 /* TraceAnalysisSDK_4009_1 */ = {
-			isa = PBXGroup;
-			children = (
-				AA7A65EB25FB102600EAD279 /* TraceAnalysisSDK.framework */,
-			);
-			path = TraceAnalysisSDK_4009_1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +291,7 @@
 				22C298951F04E72F0039998B /* LaunchScreen.storyboard in Resources */,
 				22C298921F04E72F0039998B /* Assets.xcassets in Resources */,
 				22C2988D1F04E72F0039998B /* Main.storyboard in Resources */,
+				AA5BDAB3264A64B7004221FF /* version.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +441,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdFramework",
-					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4009_1",
+					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.1_1",
 				);
 				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = TASDKDemo/Info.plist;
@@ -465,7 +469,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdFramework",
-					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4009_1",
+					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.1_1",
 				);
 				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = TASDKDemo/Info.plist;
