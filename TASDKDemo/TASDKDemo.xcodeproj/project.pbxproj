@@ -24,8 +24,8 @@
 		AA4CDA2A24A3199C00FE4610 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4CDA2924A3199C00FE4610 /* libc++.tbd */; };
 		AA75653E244AB334002A4A74 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75653D244AB334002A4A74 /* OtherViewController.m */; };
 		AA756768244ACEFB002A4A74 /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA756767244ACEFB002A4A74 /* AppsFlyerLib.framework */; };
-		AAE60B342656081E005240DE /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AAE60B322656081D005240DE /* version.md */; };
-		AAE60B352656081E005240DE /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE60B332656081E005240DE /* TraceAnalysisSDK.framework */; };
+		AAA07D55265C94AE0058479C /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AAA07D53265C94AE0058479C /* version.md */; };
+		AAA07D56265C94AE0058479C /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA07D54265C94AE0058479C /* TraceAnalysisSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,8 +59,8 @@
 		AA75653C244AB334002A4A74 /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		AA75653D244AB334002A4A74 /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		AA756767244ACEFB002A4A74 /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
-		AAE60B322656081D005240DE /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
-		AAE60B332656081E005240DE /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
+		AAA07D53265C94AE0058479C /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
+		AAA07D54265C94AE0058479C /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 				AA4CDA2A24A3199C00FE4610 /* libc++.tbd in Frameworks */,
 				22C298A91F04EB0B0039998B /* libsqlite3.tbd in Frameworks */,
 				AA756768244ACEFB002A4A74 /* AppsFlyerLib.framework in Frameworks */,
-				AAE60B352656081E005240DE /* TraceAnalysisSDK.framework in Frameworks */,
+				AAA07D56265C94AE0058479C /* TraceAnalysisSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +206,7 @@
 		AA4CDA1F24A3040C00FE4610 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				AAE60B312656081D005240DE /* TraceAnalysisSDK_4.1.0.2_1 */,
+				AAA07D52265C94AE0058479C /* TraceAnalysisSDK_4.1.0.3_1 */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -219,13 +219,13 @@
 			path = ThirdFramework;
 			sourceTree = "<group>";
 		};
-		AAE60B312656081D005240DE /* TraceAnalysisSDK_4.1.0.2_1 */ = {
+		AAA07D52265C94AE0058479C /* TraceAnalysisSDK_4.1.0.3_1 */ = {
 			isa = PBXGroup;
 			children = (
-				AAE60B322656081D005240DE /* version.md */,
-				AAE60B332656081E005240DE /* TraceAnalysisSDK.framework */,
+				AAA07D53265C94AE0058479C /* version.md */,
+				AAA07D54265C94AE0058479C /* TraceAnalysisSDK.framework */,
 			);
-			path = TraceAnalysisSDK_4.1.0.2_1;
+			path = TraceAnalysisSDK_4.1.0.3_1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +291,7 @@
 				22C298951F04E72F0039998B /* LaunchScreen.storyboard in Resources */,
 				22C298921F04E72F0039998B /* Assets.xcassets in Resources */,
 				22C2988D1F04E72F0039998B /* Main.storyboard in Resources */,
-				AAE60B342656081E005240DE /* version.md in Resources */,
+				AAA07D55265C94AE0058479C /* version.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +441,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdFramework",
-					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.2_1",
+					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.3_1",
 				);
 				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = TASDKDemo/Info.plist;
@@ -469,7 +469,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdFramework",
-					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.2_1",
+					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.3_1",
 				);
 				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = TASDKDemo/Info.plist;

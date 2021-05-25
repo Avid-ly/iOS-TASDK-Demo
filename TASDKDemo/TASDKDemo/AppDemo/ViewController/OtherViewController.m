@@ -230,6 +230,17 @@
         
         [self close];
     }];
+    
+    [TraceAnalysis getDeeplink:conversionInfo completion:^(NSError *error, NSString *deeplink) {
+        if (error) {
+            // error
+        }
+        else {
+            // succeed
+        }
+    }];
+    
+    
 }
 
 - (void)onConversionDataFail:(NSError *)error {
