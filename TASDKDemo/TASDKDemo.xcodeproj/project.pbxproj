@@ -12,9 +12,9 @@
 		22C298921F04E72F0039998B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C298911F04E72F0039998B /* Assets.xcassets */; };
 		22C298951F04E72F0039998B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C298931F04E72F0039998B /* LaunchScreen.storyboard */; };
 		22C298A91F04EB0B0039998B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C298A81F04EB0B0039998B /* libsqlite3.tbd */; };
-		AA10B635265F380200B6CE32 /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AA10B633265F380200B6CE32 /* version.md */; };
-		AA10B636265F380200B6CE32 /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA10B634265F380200B6CE32 /* TraceAnalysisSDK.framework */; };
 		AA18F6B224A9BBA4009F581E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C298861F04E72F0039998B /* AppDelegate.m */; };
+		AA48E3C0273CF1D0005457B7 /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AA48E3BE273CF1D0005457B7 /* version.md */; };
+		AA48E3C1273CF1D0005457B7 /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA48E3BF273CF1D0005457B7 /* TraceAnalysisSDK.framework */; };
 		AA49695924484C020058B044 /* NSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49694424484C020058B044 /* NSUtils.m */; };
 		AA49695A24484C020058B044 /* LogEventThread.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49694724484C020058B044 /* LogEventThread.m */; };
 		AA49695B24484C020058B044 /* CustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49694B24484C020058B044 /* CustomNavController.m */; };
@@ -38,8 +38,8 @@
 		22C298941F04E72F0039998B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22C298961F04E72F0039998B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22C298A81F04EB0B0039998B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		AA10B633265F380200B6CE32 /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
-		AA10B634265F380200B6CE32 /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
+		AA48E3BE273CF1D0005457B7 /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
+		AA48E3BF273CF1D0005457B7 /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
 		AA49694324484C020058B044 /* AppBasicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBasicDefine.h; sourceTree = "<group>"; };
 		AA49694424484C020058B044 /* NSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUtils.m; sourceTree = "<group>"; };
 		AA49694524484C020058B044 /* NSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUtils.h; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				AA4CDA2A24A3199C00FE4610 /* libc++.tbd in Frameworks */,
 				22C298A91F04EB0B0039998B /* libsqlite3.tbd in Frameworks */,
 				AA756768244ACEFB002A4A74 /* AppsFlyerLib.framework in Frameworks */,
-				AA10B636265F380200B6CE32 /* TraceAnalysisSDK.framework in Frameworks */,
+				AA48E3C1273CF1D0005457B7 /* TraceAnalysisSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,13 +129,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AA10B632265F380200B6CE32 /* TraceAnalysisSDK_4.1.0.4_1 */ = {
+		AA48E3BD273CF1D0005457B7 /* TraceAnalysisSDK_4.1.0.6_1 */ = {
 			isa = PBXGroup;
 			children = (
-				AA10B633265F380200B6CE32 /* version.md */,
-				AA10B634265F380200B6CE32 /* TraceAnalysisSDK.framework */,
+				AA48E3BE273CF1D0005457B7 /* version.md */,
+				AA48E3BF273CF1D0005457B7 /* TraceAnalysisSDK.framework */,
 			);
-			path = TraceAnalysisSDK_4.1.0.4_1;
+			path = TraceAnalysisSDK_4.1.0.6_1;
 			sourceTree = "<group>";
 		};
 		AA49694124484C020058B044 /* AppDemo */ = {
@@ -215,7 +215,7 @@
 		AA4CDA1F24A3040C00FE4610 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				AA10B632265F380200B6CE32 /* TraceAnalysisSDK_4.1.0.4_1 */,
+				AA48E3BD273CF1D0005457B7 /* TraceAnalysisSDK_4.1.0.6_1 */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 				22C298951F04E72F0039998B /* LaunchScreen.storyboard in Resources */,
 				22C298921F04E72F0039998B /* Assets.xcassets in Resources */,
 				22C2988D1F04E72F0039998B /* Main.storyboard in Resources */,
-				AA10B635265F380200B6CE32 /* version.md in Resources */,
+				AA48E3C0273CF1D0005457B7 /* version.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +442,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdFramework",
 					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.4_1",
+					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.6_1",
 				);
 				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = TASDKDemo/Info.plist;
@@ -470,6 +471,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdFramework",
 					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.4_1",
+					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.6_1",
 				);
 				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = TASDKDemo/Info.plist;

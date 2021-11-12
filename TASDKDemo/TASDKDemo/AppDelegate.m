@@ -14,6 +14,7 @@
 #import <AppsFlyerLib/AppsFlyerTracker.h>
 #import <UIKit/UIKit.h>
 #import <AdSupport/AdSupport.h>
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
 
 //#import "SensorsAnalyticsSDK.h"
 
