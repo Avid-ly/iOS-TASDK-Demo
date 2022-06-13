@@ -11,10 +11,8 @@
 		22C2988D1F04E72F0039998B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C2988B1F04E72F0039998B /* Main.storyboard */; };
 		22C298921F04E72F0039998B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C298911F04E72F0039998B /* Assets.xcassets */; };
 		22C298951F04E72F0039998B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C298931F04E72F0039998B /* LaunchScreen.storyboard */; };
-		22C298A91F04EB0B0039998B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C298A81F04EB0B0039998B /* libsqlite3.tbd */; };
 		AA18F6B224A9BBA4009F581E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C298861F04E72F0039998B /* AppDelegate.m */; };
-		AA48E3C0273CF1D0005457B7 /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AA48E3BE273CF1D0005457B7 /* version.md */; };
-		AA48E3C1273CF1D0005457B7 /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA48E3BF273CF1D0005457B7 /* TraceAnalysisSDK.framework */; };
+		AA43E41D284894CE00D64369 /* libPods-TASDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA43E41C284894CE00D64369 /* libPods-TASDKDemo.a */; };
 		AA49695924484C020058B044 /* NSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49694424484C020058B044 /* NSUtils.m */; };
 		AA49695A24484C020058B044 /* LogEventThread.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49694724484C020058B044 /* LogEventThread.m */; };
 		AA49695B24484C020058B044 /* CustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49694B24484C020058B044 /* CustomNavController.m */; };
@@ -23,9 +21,7 @@
 		AA49695E24484C020058B044 /* LogItemData.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49695124484C020058B044 /* LogItemData.m */; };
 		AA49695F24484C020058B044 /* SelfTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49695524484C020058B044 /* SelfTextFieldView.m */; };
 		AA49696024484C020058B044 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49695724484C020058B044 /* DemoViewController.m */; };
-		AA4CDA2A24A3199C00FE4610 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4CDA2924A3199C00FE4610 /* libc++.tbd */; };
 		AA75653E244AB334002A4A74 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75653D244AB334002A4A74 /* OtherViewController.m */; };
-		AA756768244ACEFB002A4A74 /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA756767244ACEFB002A4A74 /* AppsFlyerLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +34,9 @@
 		22C298941F04E72F0039998B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22C298961F04E72F0039998B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22C298A81F04EB0B0039998B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		AA48E3BE273CF1D0005457B7 /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
-		AA48E3BF273CF1D0005457B7 /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
+		4AD29FACF6D0534201E7FE17 /* Pods-TASDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TASDKDemo.release.xcconfig"; path = "Target Support Files/Pods-TASDKDemo/Pods-TASDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AA43E41C284894CE00D64369 /* libPods-TASDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-TASDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA43E41E284894D500D64369 /* TraceAnalysisSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TraceAnalysisSDK.xcframework; path = Pods/TASDK/Framework/TASDK/TraceAnalysisSDK.xcframework; sourceTree = "<group>"; };
 		AA49694324484C020058B044 /* AppBasicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBasicDefine.h; sourceTree = "<group>"; };
 		AA49694424484C020058B044 /* NSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUtils.m; sourceTree = "<group>"; };
 		AA49694524484C020058B044 /* NSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUtils.h; sourceTree = "<group>"; };
@@ -60,7 +57,8 @@
 		AA4CDA2924A3199C00FE4610 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		AA75653C244AB334002A4A74 /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		AA75653D244AB334002A4A74 /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
-		AA756767244ACEFB002A4A74 /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
+		BED3B7187C5D644E2DAB7337 /* Pods-TASDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TASDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-TASDKDemo/Pods-TASDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D399A7A466C7828A0527749F /* libPods-TASDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TASDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA4CDA2A24A3199C00FE4610 /* libc++.tbd in Frameworks */,
-				22C298A91F04EB0B0039998B /* libsqlite3.tbd in Frameworks */,
-				AA756768244ACEFB002A4A74 /* AppsFlyerLib.framework in Frameworks */,
-				AA48E3C1273CF1D0005457B7 /* TraceAnalysisSDK.framework in Frameworks */,
+				AA43E41D284894CE00D64369 /* libPods-TASDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,11 +76,10 @@
 		22C298761F04E72F0039998B = {
 			isa = PBXGroup;
 			children = (
-				AA4CDA1F24A3040C00FE4610 /* SDK */,
-				AA756766244ACEFB002A4A74 /* ThirdFramework */,
 				22C298811F04E72F0039998B /* TASDKDemo */,
 				22C298801F04E72F0039998B /* Products */,
 				22C298A71F04EB0A0039998B /* Frameworks */,
+				DB200FDD68C823A544DD2342 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,19 +117,13 @@
 		22C298A71F04EB0A0039998B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA43E41E284894D500D64369 /* TraceAnalysisSDK.xcframework */,
+				AA43E41C284894CE00D64369 /* libPods-TASDKDemo.a */,
 				AA4CDA2924A3199C00FE4610 /* libc++.tbd */,
 				22C298A81F04EB0B0039998B /* libsqlite3.tbd */,
+				D399A7A466C7828A0527749F /* libPods-TASDKDemo.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AA48E3BD273CF1D0005457B7 /* TraceAnalysisSDK_4.1.0.6_1 */ = {
-			isa = PBXGroup;
-			children = (
-				AA48E3BE273CF1D0005457B7 /* version.md */,
-				AA48E3BF273CF1D0005457B7 /* TraceAnalysisSDK.framework */,
-			);
-			path = TraceAnalysisSDK_4.1.0.6_1;
 			sourceTree = "<group>";
 		};
 		AA49694124484C020058B044 /* AppDemo */ = {
@@ -212,20 +200,13 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		AA4CDA1F24A3040C00FE4610 /* SDK */ = {
+		DB200FDD68C823A544DD2342 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AA48E3BD273CF1D0005457B7 /* TraceAnalysisSDK_4.1.0.6_1 */,
+				BED3B7187C5D644E2DAB7337 /* Pods-TASDKDemo.debug.xcconfig */,
+				4AD29FACF6D0534201E7FE17 /* Pods-TASDKDemo.release.xcconfig */,
 			);
-			path = SDK;
-			sourceTree = "<group>";
-		};
-		AA756766244ACEFB002A4A74 /* ThirdFramework */ = {
-			isa = PBXGroup;
-			children = (
-				AA756767244ACEFB002A4A74 /* AppsFlyerLib.framework */,
-			);
-			path = ThirdFramework;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22C298991F04E72F0039998B /* Build configuration list for PBXNativeTarget "TASDKDemo" */;
 			buildPhases = (
+				F3B27BB5A07273A60174D0F0 /* [CP] Check Pods Manifest.lock */,
 				22C2987B1F04E72F0039998B /* Sources */,
 				22C2987C1F04E72F0039998B /* Frameworks */,
 				22C2987D1F04E72F0039998B /* Resources */,
@@ -254,7 +236,7 @@
 		22C298771F04E72F0039998B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = samliu;
 				TargetAttributes = {
 					22C2987E1F04E72F0039998B = {
@@ -291,11 +273,35 @@
 				22C298951F04E72F0039998B /* LaunchScreen.storyboard in Resources */,
 				22C298921F04E72F0039998B /* Assets.xcassets in Resources */,
 				22C2988D1F04E72F0039998B /* Main.storyboard in Resources */,
-				AA48E3C0273CF1D0005457B7 /* version.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F3B27BB5A07273A60174D0F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TASDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22C2987B1F04E72F0039998B /* Sources */ = {
@@ -342,21 +348,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -379,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -390,21 +406,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -421,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -430,6 +456,7 @@
 		};
 		22C2989A1F04E72F0039998B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED3B7187C5D644E2DAB7337 /* Pods-TASDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -440,16 +467,61 @@
 				DEVELOPMENT_TEAM = 8Q98XXS96P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ThirdFramework",
-					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.4_1",
-					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.6_1",
+					"\"${PODS_ROOT}/AppsFlyerFramework\"",
+					"\"${PODS_ROOT}/TASDK/Framework/TASDK\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppsFlyerFramework/Main\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/TASDK\"",
 				);
 				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = TASDKDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 4009;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"xml2\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AppsFlyerLib\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"EventKit\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TraceAnalysisSDK\"",
+					"-framework",
+					"\"WatchConnectivity\"",
+					"-framework",
+					"\"WebKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.upltv.trace.analysis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0373c2f9-3d89-42f2-883e-1fed0ef30137";
@@ -459,6 +531,7 @@
 		};
 		22C2989B1F04E72F0039998B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD29FACF6D0534201E7FE17 /* Pods-TASDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -469,16 +542,61 @@
 				DEVELOPMENT_TEAM = 8Q98XXS96P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ThirdFramework",
-					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.4_1",
-					"$(PROJECT_DIR)/SDK/TraceAnalysisSDK_4.1.0.6_1",
+					"\"${PODS_ROOT}/AppsFlyerFramework\"",
+					"\"${PODS_ROOT}/TASDK/Framework/TASDK\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppsFlyerFramework/Main\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/TASDK\"",
 				);
 				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = TASDKDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 4009;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"xml2\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AppsFlyerLib\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"EventKit\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TraceAnalysisSDK\"",
+					"-framework",
+					"\"WatchConnectivity\"",
+					"-framework",
+					"\"WebKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.upltv.trace.analysis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0373c2f9-3d89-42f2-883e-1fed0ef30137";

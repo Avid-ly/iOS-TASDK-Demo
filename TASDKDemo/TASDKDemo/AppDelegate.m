@@ -11,14 +11,15 @@
 #import "CustomNavController.h"
 #import <TraceAnalysisSDK/TraceAnalysis.h>
 #import <UserNotifications/UserNotifications.h>
-#import <AppsFlyerLib/AppsFlyerTracker.h>
+#import <AppsFlyerLib/AppsFlyerLib.h>
 #import <UIKit/UIKit.h>
 #import <AdSupport/AdSupport.h>
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
+//#import <TraceAnalysisSDK/TraceAnalysisDebug.h>
 
 //#import "SensorsAnalyticsSDK.h"
 
-@interface AppDelegate () <AppsFlyerTrackerDelegate>
+@interface AppDelegate () <AppsFlyerLibDelegate>
 
 @end
 
@@ -30,22 +31,22 @@
     NSString *idfa = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
     NSLog(@"idfa:%@",idfa);
     
-    NSString *version = [[AppsFlyerTracker sharedTracker] getSDKVersion];
+    NSString *version = [[AppsFlyerLib shared] getSDKVersion];
     NSLog(@"AppsFlyer version:%@",version);
     
-    [TraceAnalysisDebug setDebugLevel:TraceAnalysisDebugLevelLog];
-    [TraceAnalysis initWithProductId:@"600108" ChannelId:@"32407" AppID:@"hello" zone:1];
+//    [TraceAnalysisDebug setDebugLevel:TraceAnalysisDebugLevelLog];
+    [TraceAnalysis initWithProductId:@"600108" ChannelId:@"32407" AppID:@"hello"];
     [TraceAnalysis initDurationReportWithServerName:@"111" serverZone:@"222" uid:@"333" ggid:@"444"];
    
 #warning TEST AppsFlyer
-    [AppsFlyerTracker sharedTracker].appsFlyerDevKey = @"fZvuk792H9hJQKmaTwuXxA";
-    [AppsFlyerTracker sharedTracker].appleAppID = @"1382108510";
-    [AppsFlyerTracker sharedTracker].delegate = self;
-    [AppsFlyerTracker sharedTracker].isDebug = YES;
+    [AppsFlyerLib shared].appsFlyerDevKey = @"fZvuk792H9hJQKmaTwuXxA";
+    [AppsFlyerLib shared].appleAppID = @"1382108510";
+    [AppsFlyerLib shared].delegate = self;
+    [AppsFlyerLib shared].isDebug = YES;
     NSString *openId = [TraceAnalysis getOpenId];
-    [AppsFlyerTracker sharedTracker].customerUserID = openId;
+    [AppsFlyerLib shared].customerUserID = openId;
     
-    NSString *appsFlyerId = [[AppsFlyerTracker sharedTracker] getAppsFlyerUID];
+    NSString *appsFlyerId = [[AppsFlyerLib shared] getAppsFlyerUID];
     [TraceAnalysis setAppsFlyerId:appsFlyerId];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -61,7 +62,7 @@
     [TraceAnalysis becomeActive];
     
 #warning TEST AppsFlyer
-    [[AppsFlyerTracker sharedTracker] trackAppLaunch];
+    [[AppsFlyerLib shared] start];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

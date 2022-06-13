@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		78DE407E53F1578A41CD13CF324D300C /* TASDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 52C5EDF84157B6E6D7B4875B876A0980 /* Build configuration list for PBXAggregateTarget "TASDK" */;
+			buildPhases = (
+				2E560816AFF3BD644C97A73D4B0939BA /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = TASDK;
+			productName = TASDK;
+		};
+		B0B23938B1EBCBAD2419AB6E9D222A0B /* AppsFlyerFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7D8E8B9AC2774E05F6C3A0C7E30CB58B /* Build configuration list for PBXAggregateTarget "AppsFlyerFramework" */;
+			buildPhases = (
+				7E7DC2FD934D79FF2EA382EB682A05EC /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = AppsFlyerFramework;
+			productName = AppsFlyerFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5C9F3F2E6E2EE6F86CE852B28ACF7A77 /* Pods-TASDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 258D55B286BA2481B176A5C1A8D338F8 /* Pods-TASDKDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15B5B74EA198ADCFB6C8E7D5D30EC820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B23938B1EBCBAD2419AB6E9D222A0B;
+			remoteInfo = AppsFlyerFramework;
+		};
+		F68F0E97500BE702D02E3CBE9FD071BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78DE407E53F1578A41CD13CF324D300C;
+			remoteInfo = TASDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121690EA4D22FAFA22EA5DF4932823CC /* TASDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TASDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		1BD46D7B41C8515DF6946464BB14BD9A /* Pods-TASDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TASDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		22578DF47C66991F37F8CA265B031450 /* Pods-TASDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TASDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		258D55B286BA2481B176A5C1A8D338F8 /* Pods-TASDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TASDKDemo-dummy.m"; sourceTree = "<group>"; };
+		691B7F5580E8050F1A9247ECB2A44D8C /* Pods-TASDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TASDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6CCB93FA8D726C098DDA5EF607410EB7 /* libPods-TASDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TASDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F191DF59BCD9772927ADCB2116CB82 /* AppsFlyerFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppsFlyerFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		81219A8BBA651B0189C292600B74D170 /* TraceAnalysisSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TraceAnalysisSDK.xcframework; path = Framework/TASDK/TraceAnalysisSDK.xcframework; sourceTree = "<group>"; };
+		8F81315877F6C485302112B1035A9877 /* AppsFlyerFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppsFlyerFramework.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0E920495FF29849A14A766BC513B02E /* TASDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TASDK.debug.xcconfig; sourceTree = "<group>"; };
+		A21394A4F5613DCF3E4BDE5854B8DAAC /* Pods-TASDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TASDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6D058F26C0595D655172588D8B0C770 /* AppsFlyerFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppsFlyerFramework.debug.xcconfig; sourceTree = "<group>"; };
+		CFCDF5BB3EC00A4296594C316AE608B6 /* TASDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TASDK.release.xcconfig; sourceTree = "<group>"; };
+		F08C1E4EA89CCD68DAA7129DEC1B64C9 /* AppsFlyerLib.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = AppsFlyerLib.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD6E447BC922118DEAA26BED7096E853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166DDFFECD0E78BC37127FC401DB7324 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC08F73F213C0EC509F530D0E715861A /* AppsFlyerFramework */,
+				BBC9A5514E33243C0B13EDF55AB76B1B /* TASDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		231ADFEEDB5CB4E7235CC09463829BC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81219A8BBA651B0189C292600B74D170 /* TraceAnalysisSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24695EDED5BDB061C0999B601AA8222C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				121690EA4D22FAFA22EA5DF4932823CC /* TASDK-xcframeworks.sh */,
+				A0E920495FF29849A14A766BC513B02E /* TASDK.debug.xcconfig */,
+				CFCDF5BB3EC00A4296594C316AE608B6 /* TASDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TASDK";
+			sourceTree = "<group>";
+		};
+		2F1525FE74BBFF06B0E42B6A56AE758D /* Pods-TASDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A21394A4F5613DCF3E4BDE5854B8DAAC /* Pods-TASDKDemo-acknowledgements.markdown */,
+				22578DF47C66991F37F8CA265B031450 /* Pods-TASDKDemo-acknowledgements.plist */,
+				258D55B286BA2481B176A5C1A8D338F8 /* Pods-TASDKDemo-dummy.m */,
+				691B7F5580E8050F1A9247ECB2A44D8C /* Pods-TASDKDemo.debug.xcconfig */,
+				1BD46D7B41C8515DF6946464BB14BD9A /* Pods-TASDKDemo.release.xcconfig */,
+			);
+			name = "Pods-TASDKDemo";
+			path = "Target Support Files/Pods-TASDKDemo";
+			sourceTree = "<group>";
+		};
+		85D12C2978C820959E6261C2BF4D36B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F08C1E4EA89CCD68DAA7129DEC1B64C9 /* AppsFlyerLib.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		993F89AD5E556086C289C8993C653922 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				85D12C2978C820959E6261C2BF4D36B5 /* Frameworks */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		A3A7B9FFE39A4057E0FDCAAA6A6EC8A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73F191DF59BCD9772927ADCB2116CB82 /* AppsFlyerFramework-xcframeworks.sh */,
+				B6D058F26C0595D655172588D8B0C770 /* AppsFlyerFramework.debug.xcconfig */,
+				8F81315877F6C485302112B1035A9877 /* AppsFlyerFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppsFlyerFramework";
+			sourceTree = "<group>";
+		};
+		AC08F73F213C0EC509F530D0E715861A /* AppsFlyerFramework */ = {
+			isa = PBXGroup;
+			children = (
+				993F89AD5E556086C289C8993C653922 /* Main */,
+				A3A7B9FFE39A4057E0FDCAAA6A6EC8A9 /* Support Files */,
+			);
+			path = AppsFlyerFramework;
+			sourceTree = "<group>";
+		};
+		BBC9A5514E33243C0B13EDF55AB76B1B /* TASDK */ = {
+			isa = PBXGroup;
+			children = (
+				231ADFEEDB5CB4E7235CC09463829BC2 /* Frameworks */,
+				24695EDED5BDB061C0999B601AA8222C /* Support Files */,
+			);
+			path = TASDK;
+			sourceTree = "<group>";
+		};
+		BFFA9B80B25CCD21A5BF8B0A8CBF6596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB93FA8D726C098DDA5EF607410EB7 /* libPods-TASDKDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				166DDFFECD0E78BC37127FC401DB7324 /* Pods */,
+				BFFA9B80B25CCD21A5BF8B0A8CBF6596 /* Products */,
+				D9CF34F9A573F7FF9CC009130D7B80E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9CF34F9A573F7FF9CC009130D7B80E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F1525FE74BBFF06B0E42B6A56AE758D /* Pods-TASDKDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CFBA09B8A4C764349FF2E981FF00EEA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D33610F3F7A57549198DB4B77A1846D /* Pods-TASDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2645ACB9CB1247117AF311CB790B37DB /* Build configuration list for PBXNativeTarget "Pods-TASDKDemo" */;
+			buildPhases = (
+				CFBA09B8A4C764349FF2E981FF00EEA7 /* Headers */,
+				3B272692E5010F119C265516CE89BBE3 /* Sources */,
+				FD6E447BC922118DEAA26BED7096E853 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF09E7C7D76593FF2B678BAE8DD6BF8 /* PBXTargetDependency */,
+				213478810A93E82A06A4E4302653BA7F /* PBXTargetDependency */,
+			);
+			name = "Pods-TASDKDemo";
+			productName = "Pods-TASDKDemo";
+			productReference = 6CCB93FA8D726C098DDA5EF607410EB7 /* libPods-TASDKDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BFFA9B80B25CCD21A5BF8B0A8CBF6596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0B23938B1EBCBAD2419AB6E9D222A0B /* AppsFlyerFramework */,
+				3D33610F3F7A57549198DB4B77A1846D /* Pods-TASDKDemo */,
+				78DE407E53F1578A41CD13CF324D300C /* TASDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E560816AFF3BD644C97A73D4B0939BA /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/TASDK/TASDK-xcframeworks.sh",
+				"${PODS_ROOT}/TASDK/Framework/TASDK/TraceAnalysisSDK.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TASDK/TraceAnalysisSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/TASDK/TASDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7DC2FD934D79FF2EA382EB682A05EC /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks.sh",
+				"${PODS_ROOT}/AppsFlyerFramework/AppsFlyerLib.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppsFlyerFramework/Main/AppsFlyerLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B272692E5010F119C265516CE89BBE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9F3F2E6E2EE6F86CE852B28ACF7A77 /* Pods-TASDKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		213478810A93E82A06A4E4302653BA7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TASDK;
+			target = 78DE407E53F1578A41CD13CF324D300C /* TASDK */;
+			targetProxy = F68F0E97500BE702D02E3CBE9FD071BB /* PBXContainerItemProxy */;
+		};
+		EBF09E7C7D76593FF2B678BAE8DD6BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppsFlyerFramework;
+			target = B0B23938B1EBCBAD2419AB6E9D222A0B /* AppsFlyerFramework */;
+			targetProxy = 15B5B74EA198ADCFB6C8E7D5D30EC820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		524C91D89E9789AE70345B08E9194A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFCDF5BB3EC00A4296594C316AE608B6 /* TASDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		89E3831F541DAA89145BC922A24CBEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F81315877F6C485302112B1035A9877 /* AppsFlyerFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D0F4B85E3A7C47BF23E78CEC8184E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691B7F5580E8050F1A9247ECB2A44D8C /* Pods-TASDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D43EA37B627C9411A3B59CB5A6E4768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD46D7B41C8515DF6946464BB14BD9A /* Pods-TASDKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EA878E87D557119950DC15814521F4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E920495FF29849A14A766BC513B02E /* TASDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE51CBF1430745B4149859E0541666DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D058F26C0595D655172588D8B0C770 /* AppsFlyerFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2645ACB9CB1247117AF311CB790B37DB /* Build configuration list for PBXNativeTarget "Pods-TASDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0F4B85E3A7C47BF23E78CEC8184E7A /* Debug */,
+				8D43EA37B627C9411A3B59CB5A6E4768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C5EDF84157B6E6D7B4875B876A0980 /* Build configuration list for PBXAggregateTarget "TASDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA878E87D557119950DC15814521F4A7 /* Debug */,
+				524C91D89E9789AE70345B08E9194A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8E8B9AC2774E05F6C3A0C7E30CB58B /* Build configuration list for PBXAggregateTarget "AppsFlyerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE51CBF1430745B4149859E0541666DA /* Debug */,
+				89E3831F541DAA89145BC922A24CBEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

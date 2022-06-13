@@ -10,7 +10,7 @@
 //#import "TraceJsonUtil.h"
 //#import "TraceAnalysis.h"
 #import <TraceAnalysisSDK/TraceAnalysis.h>
-#import <AppsFlyerLib/AppsFlyerTracker.h>
+#import <AppsFlyerLib/AppsFlyerLib.h>
 
 #import <objc/runtime.h>
 #import <objc/message.h>
@@ -23,7 +23,7 @@
 //#import "SensorsAnalyticsSDK.h"
 //#import "SATestDatabase.h"
 
-@interface OtherViewController () <AppsFlyerTrackerDelegate>
+@interface OtherViewController () <AppsFlyerLibDelegate>
 {
 //    SATestDatabase *_testDataBase;
 }
@@ -110,11 +110,12 @@
 
 - (void)campaignTestClick {
     
-    [AppsFlyerTracker sharedTracker].delegate = self;
-    [[AppsFlyerTracker sharedTracker] trackAppLaunch];
+    [AppsFlyerLib shared].delegate = self;
+    [[AppsFlyerLib shared] start];
 }
 
 - (void)loginLogClick {
+    
 //    [TraceAnalysis commonLoginWithPlayerId:@"1111" loginType:@"appid" loginToken:@"22222"];
     
 //    [TraceAnalysis commonLoginWithPlayerId:@"610401568" loginType:@"apple" loginToken:@"eyJpc3N1ZWRfYXQiOjE1OTEzNjE3MDAzNDksImFsZyI6IkhTMjU2IiwidHlwIjoiSldUIn0.eyJiaW5kQXZpZGx5IjoiZmFsc2UiLCJpc1ZlcmlmaWVkRW1haWwiOiJmYWxzZSIsImJpbmRBcHBsZUlEIjoidHJ1ZSIsImJpbmRHb29nbGUiOiJmYWxzZSIsInBkdGlkIjoiNjAwMTgxIiwiaWRmYSI6IjU5RjY4NTBCLTg4MTktNDM2RC05OUUyLUYxNzk3NDY4MTRERCIsImJpbmRGYiI6ImZhbHNlIiwiYmluZEluc3RhZ3JhbSI6ImZhbHNlIiwiYmluZFR3aXR0ZXIiOiJmYWxzZSIsImJpbmRWaWQiOiJmYWxzZSIsImdhbWVHdWVzdElkIjoiODIyNDk5MjI5NDYwMDczNDgiLCJiaW5kQXBwbGVHYW1lQ2VudGVyIjoiZmFsc2UiLCJpZGZ2IjoiMDgzOTc3QkItNTg4Ri00RTU0LThGNDYtRjEyRjNBQTVGQUM1IiwiZXhwIjoxNTkxNDQ4MTAwfQ.ZFN2SuJHBgV8UrRL6nHsf-qcb3ZjwS9KcWUs7fN33GI"];

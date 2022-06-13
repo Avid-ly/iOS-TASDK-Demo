@@ -584,7 +584,7 @@
         [self addLogv:[NSString stringWithFormat:@"==> 渠道ID：%@",cid]];
         [self addLogv:[NSString stringWithFormat:@"==>   区域：%d",Test_Zone]];
         
-        [TraceAnalysis initWithProductId:pid ChannelId:cid AppID:@"" zone:Test_Zone];
+        [TraceAnalysis initWithProductId:pid ChannelId:cid AppID:@""];
         //[TraceAnalysis initWithProductId:pid ChannelId:cid AppID:@""];
         //[TraceAnalysis disableAccessPrivacyInformation];
         
@@ -851,7 +851,7 @@
         [self addLogi:@"初始化SDK："];
         [self addLogv:[NSString stringWithFormat:@"==> 产品ID：%@",pid]];
         [self addLogv:[NSString stringWithFormat:@"==> 渠道ID：%@",cid]];
-        [TraceAnalysis initWithProductId:pid ChannelId:cid AppID:@"" zone:Test_Zone];
+        [TraceAnalysis initWithProductId:pid ChannelId:cid AppID:@""];
         _hasInited = YES;
     }
 

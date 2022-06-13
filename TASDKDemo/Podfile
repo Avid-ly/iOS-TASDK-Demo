@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Avid-ly/iOS-CocoaPods-Spec.git'
+
+platform :ios, '10.0'
+
+target 'TASDKDemo' do
+
+# TASDK
+pod 'TASDK', '4.1.0.7'
+
+# AppsFlyer
+pod 'AppsFlyerFramework'
+
+end
