@@ -15,12 +15,9 @@
 		AA43E41D284894CE00D64369 /* libPods-TASDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA43E41C284894CE00D64369 /* libPods-TASDKDemo.a */; };
 		AA49695924484C020058B044 /* NSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49694424484C020058B044 /* NSUtils.m */; };
 		AA49695A24484C020058B044 /* LogEventThread.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49694724484C020058B044 /* LogEventThread.m */; };
-		AA49695B24484C020058B044 /* CustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49694B24484C020058B044 /* CustomNavController.m */; };
 		AA49695C24484C020058B044 /* LogCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49694E24484C020058B044 /* LogCellView.m */; };
 		AA49695D24484C020058B044 /* LogListView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49694F24484C020058B044 /* LogListView.m */; };
 		AA49695E24484C020058B044 /* LogItemData.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49695124484C020058B044 /* LogItemData.m */; };
-		AA49695F24484C020058B044 /* SelfTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49695524484C020058B044 /* SelfTextFieldView.m */; };
-		AA49696024484C020058B044 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49695724484C020058B044 /* DemoViewController.m */; };
 		AA75653E244AB334002A4A74 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75653D244AB334002A4A74 /* OtherViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -42,18 +39,12 @@
 		AA49694524484C020058B044 /* NSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUtils.h; sourceTree = "<group>"; };
 		AA49694724484C020058B044 /* LogEventThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogEventThread.m; sourceTree = "<group>"; };
 		AA49694824484C020058B044 /* LogEventThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogEventThread.h; sourceTree = "<group>"; };
-		AA49694A24484C020058B044 /* CustomNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavController.h; sourceTree = "<group>"; };
-		AA49694B24484C020058B044 /* CustomNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavController.m; sourceTree = "<group>"; };
 		AA49694D24484C020058B044 /* LogListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogListView.h; sourceTree = "<group>"; };
 		AA49694E24484C020058B044 /* LogCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogCellView.m; sourceTree = "<group>"; };
 		AA49694F24484C020058B044 /* LogListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogListView.m; sourceTree = "<group>"; };
 		AA49695124484C020058B044 /* LogItemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogItemData.m; sourceTree = "<group>"; };
 		AA49695224484C020058B044 /* LogItemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogItemData.h; sourceTree = "<group>"; };
 		AA49695324484C020058B044 /* LogCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogCellView.h; sourceTree = "<group>"; };
-		AA49695524484C020058B044 /* SelfTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfTextFieldView.m; sourceTree = "<group>"; };
-		AA49695624484C020058B044 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
-		AA49695724484C020058B044 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
-		AA49695824484C020058B044 /* SelfTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfTextFieldView.h; sourceTree = "<group>"; };
 		AA4CDA2924A3199C00FE4610 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		AA75653C244AB334002A4A74 /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		AA75653D244AB334002A4A74 /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
@@ -131,7 +122,6 @@
 			children = (
 				AA49694224484C020058B044 /* Util */,
 				AA49694624484C020058B044 /* LogEvent */,
-				AA49694924484C020058B044 /* CustomNavigation */,
 				AA49694C24484C020058B044 /* View */,
 				AA49695424484C020058B044 /* ViewController */,
 			);
@@ -157,15 +147,6 @@
 			path = LogEvent;
 			sourceTree = "<group>";
 		};
-		AA49694924484C020058B044 /* CustomNavigation */ = {
-			isa = PBXGroup;
-			children = (
-				AA49694A24484C020058B044 /* CustomNavController.h */,
-				AA49694B24484C020058B044 /* CustomNavController.m */,
-			);
-			path = CustomNavigation;
-			sourceTree = "<group>";
-		};
 		AA49694C24484C020058B044 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,8 +155,6 @@
 				AA49694E24484C020058B044 /* LogCellView.m */,
 				AA49694D24484C020058B044 /* LogListView.h */,
 				AA49694F24484C020058B044 /* LogListView.m */,
-				AA49695824484C020058B044 /* SelfTextFieldView.h */,
-				AA49695524484C020058B044 /* SelfTextFieldView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,8 +171,6 @@
 		AA49695424484C020058B044 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AA49695624484C020058B044 /* DemoViewController.h */,
-				AA49695724484C020058B044 /* DemoViewController.m */,
 				AA75653C244AB334002A4A74 /* OtherViewController.h */,
 				AA75653D244AB334002A4A74 /* OtherViewController.m */,
 			);
@@ -310,11 +287,8 @@
 			files = (
 				AA49695D24484C020058B044 /* LogListView.m in Sources */,
 				AA49695A24484C020058B044 /* LogEventThread.m in Sources */,
-				AA49696024484C020058B044 /* DemoViewController.m in Sources */,
-				AA49695B24484C020058B044 /* CustomNavController.m in Sources */,
 				AA49695C24484C020058B044 /* LogCellView.m in Sources */,
 				AA49695E24484C020058B044 /* LogItemData.m in Sources */,
-				AA49695F24484C020058B044 /* SelfTextFieldView.m in Sources */,
 				AA18F6B224A9BBA4009F581E /* AppDelegate.m in Sources */,
 				22C298841F04E72F0039998B /* main.m in Sources */,
 				AA49695924484C020058B044 /* NSUtils.m in Sources */,

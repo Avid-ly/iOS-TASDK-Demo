@@ -326,6 +326,14 @@ extern NSString *const TraceAnalysisLoginTypeOther;
  */
 + (void)getABTestWithCmpletion:(void (^)(NSError *error, NSString *abTest))completionBlock;
 
+/**
+ ABTest
+ 
+ @param playerId            游戏用户ID
+ @param completionBlock     完成回调
+ */
++ (void)getABTestWithPlayerId:(NSString *)playerId completion:(void (^)(NSError *error, NSString *abTest))completionBlock;
+
 #pragma mark - ATT
 
 /**

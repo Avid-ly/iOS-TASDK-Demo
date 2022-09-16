@@ -11,24 +11,11 @@
 
 @interface NSUtils : NSObject
 
-+(NSString*) getLocalisedString:(NSString*) key;
-
 + (void)adjustLabelHeightToFitContent:(UILabel *)label;
 + (void)adjustLabelWeightToFitContent:(UILabel *)label;
-+ (CGSize) getUILabelTextCGSizeUILabel:(UILabel *) label;
-+ (void)adjustLabelHeightFitInCenter:(UILabel *)label height:(CGFloat) height;
 
-+ (void)openAppStoreForInfo:(NSString*) appid;
-+ (void)openAppStoreForRate:(NSString*) appid;
-+ (void)openAppStoreForInstall:(NSString*) appid;
 
-+ (void)showShortToastMessage:(NSString *)message;
-+ (void)showLongToastMessage:(NSString *)message;
++ (NSString *)dictionaryToString:(id)object;
++ (NSString *)base64Encode:(NSString *)value;
 
-+ (NSString *)idfv;
-+ (NSString *)idfa;
-+ (void)logMessage:(NSString *)message;
-+ (void)logTag:(NSString *)tag message:(NSString *)message;
-
-+ (NSString *)getDateFormatterString:(int64_t)time;
 @end
