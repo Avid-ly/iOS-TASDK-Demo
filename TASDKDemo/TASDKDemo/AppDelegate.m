@@ -35,8 +35,6 @@
     [self.window makeKeyAndVisible];
     
     return YES;
-    
-    SKStoreProductViewController *vc;
 }
 
 @end

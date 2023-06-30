@@ -1,5 +1,5 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AppsFlyerFramework" "${PODS_ROOT}/TASDK/Framework/TASDK" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppsFlyerFramework/Main" "${PODS_XCFRAMEWORKS_BUILD_DIR}/TASDK"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AppsFlyerFramework/binaries/xcframework/full" "${PODS_ROOT}/TASDK/Framework/TASDK" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppsFlyerFramework/Main" "${PODS_XCFRAMEWORKS_BUILD_DIR}/TASDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"resolv" -l"sqlite3" -l"xml2" -l"z" -framework "AVFoundation" -framework "AdSupport" -framework "AppsFlyerLib" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreTelephony" -framework "EventKit" -framework "JavaScriptCore" -framework "MediaPlayer" -framework "MessageUI" -framework "QuartzCore" -framework "Security" -framework "Social" -framework "StoreKit" -framework "SystemConfiguration" -framework "TraceAnalysisSDK" -framework "WatchConnectivity" -framework "WebKit"
 PODS_BUILD_DIR = ${BUILD_DIR}

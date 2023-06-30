@@ -21,7 +21,7 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 7D8E8B9AC2774E05F6C3A0C7E30CB58B /* Build configuration list for PBXAggregateTarget "AppsFlyerFramework" */;
 			buildPhases = (
-				7E7DC2FD934D79FF2EA382EB682A05EC /* [CP] Copy XCFrameworks */,
+				188C11FD09CA2885751C5B62E3BC28FF /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -63,9 +63,9 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0E920495FF29849A14A766BC513B02E /* TASDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TASDK.debug.xcconfig; sourceTree = "<group>"; };
 		A21394A4F5613DCF3E4BDE5854B8DAAC /* Pods-TASDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TASDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A273266BC5EC72AC06B6E8876B386AFA /* AppsFlyerLib.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppsFlyerLib.xcframework; path = binaries/xcframework/full/AppsFlyerLib.xcframework; sourceTree = "<group>"; };
 		B6D058F26C0595D655172588D8B0C770 /* AppsFlyerFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppsFlyerFramework.debug.xcconfig; sourceTree = "<group>"; };
 		CFCDF5BB3EC00A4296594C316AE608B6 /* TASDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TASDK.release.xcconfig; sourceTree = "<group>"; };
-		F08C1E4EA89CCD68DAA7129DEC1B64C9 /* AppsFlyerLib.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AppsFlyerLib.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,18 +120,10 @@
 			path = "Target Support Files/Pods-TASDKDemo";
 			sourceTree = "<group>";
 		};
-		85D12C2978C820959E6261C2BF4D36B5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F08C1E4EA89CCD68DAA7129DEC1B64C9 /* AppsFlyerLib.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		993F89AD5E556086C289C8993C653922 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				85D12C2978C820959E6261C2BF4D36B5 /* Frameworks */,
+				A49577ED16051E58337A3A00F95F6FEC /* Frameworks */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -145,6 +137,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AppsFlyerFramework";
+			sourceTree = "<group>";
+		};
+		A49577ED16051E58337A3A00F95F6FEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A273266BC5EC72AC06B6E8876B386AFA /* AppsFlyerLib.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AC08F73F213C0EC509F530D0E715861A /* AppsFlyerFramework */ = {
@@ -263,6 +263,24 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		188C11FD09CA2885751C5B62E3BC28FF /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks.sh",
+				"${PODS_ROOT}/AppsFlyerFramework/binaries/xcframework/full/AppsFlyerLib.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppsFlyerFramework/Main/AppsFlyerLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2E560816AFF3BD644C97A73D4B0939BA /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,24 +297,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/TASDK/TASDK-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7E7DC2FD934D79FF2EA382EB682A05EC /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks.sh",
-				"${PODS_ROOT}/AppsFlyerFramework/AppsFlyerLib.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppsFlyerFramework/Main/AppsFlyerLib.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
