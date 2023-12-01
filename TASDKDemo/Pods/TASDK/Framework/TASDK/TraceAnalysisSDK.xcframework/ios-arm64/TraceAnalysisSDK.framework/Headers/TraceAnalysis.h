@@ -23,6 +23,16 @@
  */
 + (void)initWithProductId:(NSString *)productId ChannelId:(NSString *)channelId AppID:(NSString *)appId;
 
+/**
+ SDK初始化
+ 
+ @param productId 分配的产品编号
+ @param channelId 渠道编号
+ @param appId     "id" + Apple ID
+ @param completionBlock 初始化完成回调（当error有值或staToken为空时，表示初始化失败）
+ */
++ (void)initWithProductId:(NSString *)productId ChannelId:(NSString *)channelId AppID:(NSString *)appId completion:(void (^)(NSError *error, NSString *staToken))completionBlock;
+
 #pragma mark - Privacy
 
 /**

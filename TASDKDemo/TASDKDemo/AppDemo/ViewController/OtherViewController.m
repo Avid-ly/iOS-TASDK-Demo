@@ -183,13 +183,29 @@
 - (void)initSDK {
     [TraceAnalysisDebug setDebugLevel:TraceAnalysisDebugLevelLog];
     // 测试分层
-    [TraceAnalysis initWithProductId:kProductId ChannelId:kChannelId AppID:kAppleAppID];
+    [TraceAnalysis initWithProductId:kProductId ChannelId:kChannelId AppID:kAppleAppID completion:^(NSError *error, NSString *staToken) {
+        if (error || staToken == nil || [staToken isEqualToString:@""]) {
+            NSString *title = @"Completion-Error";
+            NSString *str = @"";
+            if (error) {
+                if (error.userInfo) {
+                    if ([[error.userInfo allKeys] containsObject:@"message"]) {
+                        str = [error.userInfo objectForKey:@"message"];
+                    }
+                }
+            }
+            NSString *message = [NSString stringWithFormat:@"init sdk error, error is %@",str];
+            [self showAlert:title message:message];
+            NSLog(@"%@",message);
+        }
+        else {
+            NSString *title = @"Completion-Succeed";
+            NSString *message = [NSString stringWithFormat:@"init sdk succeed, token is %@",staToken];
+            [self showAlert:title message:message];
+            NSLog(@"%@",message);
+        }
+    }];
     [TraceAnalysis initDurationReportWithServerName:kServerName serverZone:kserverZone uid:kPlayerId ggid:kGGID];
-    
-    NSString *title = @"Succeed";
-    NSString *message = [NSString stringWithFormat:@"init sdk succeed"];
-
-    [self showAlert:title message:message];
 }
 
 - (void)logTestClick {
@@ -359,6 +375,25 @@
 //        [self showAlert:title message:message];
 //    }];
 }
+
+//// 用户度量 标签 测试
+//- (void)measureClick {
+//    
+//    [TraceAnalysis getMeasureWithCmpletion:^(NSError *error, NSString *measureJson) {
+//        NSString *title = @"Tip";
+//        NSString *message;
+//        if (error) {
+//            title = @"Error";
+//            message = [NSString stringWithFormat:@"getSKANWithCmpletion error : %@",error];
+//        }
+//        else {
+//            title = @"Succeed";
+//            message = [NSString stringWithFormat:@"getSKANWithCmpletion succeed abTest :\n %@", measureJson];
+//        }
+//
+//        [self showAlert:title message:message];
+//    }];
+//}
 
 #pragma mark - AppsFlyerTrackerDelegate
 
