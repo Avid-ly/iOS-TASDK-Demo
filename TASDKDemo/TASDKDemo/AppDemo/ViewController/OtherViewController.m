@@ -376,24 +376,24 @@
 //    }];
 }
 
-//// 用户度量 标签 测试
-//- (void)measureClick {
-//    
-//    [TraceAnalysis getMeasureWithCmpletion:^(NSError *error, NSString *measureJson) {
-//        NSString *title = @"Tip";
-//        NSString *message;
-//        if (error) {
-//            title = @"Error";
-//            message = [NSString stringWithFormat:@"getSKANWithCmpletion error : %@",error];
-//        }
-//        else {
-//            title = @"Succeed";
-//            message = [NSString stringWithFormat:@"getSKANWithCmpletion succeed abTest :\n %@", measureJson];
-//        }
-//
-//        [self showAlert:title message:message];
-//    }];
-//}
+// 用户度量 标签 测试
+- (void)measureClick {
+    
+    [TraceAnalysis getMeasureWithCmpletion:^(NSError *error, NSString *measureJson) {
+        NSString *title = @"Tip";
+        NSString *message;
+        if (error) {
+            title = @"Error";
+            message = [NSString stringWithFormat:@"getSKANWithCmpletion error : %@",error];
+        }
+        else {
+            title = @"Succeed";
+            message = [NSString stringWithFormat:@"getSKANWithCmpletion succeed abTest :\n %@", measureJson];
+        }
+
+        [self showAlert:title message:message];
+    }];
+}
 
 #pragma mark - AppsFlyerTrackerDelegate
 

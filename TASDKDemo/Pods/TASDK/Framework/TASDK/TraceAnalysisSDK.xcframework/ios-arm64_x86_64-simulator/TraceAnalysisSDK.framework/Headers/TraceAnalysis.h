@@ -344,6 +344,13 @@ extern NSString *const TraceAnalysisLoginTypeOther;
  */
 + (void)getABTestWithPlayerId:(NSString *)playerId completion:(void (^)(NSError *error, NSString *abTest))completionBlock;
 
+/**
+ 用户度量标签
+ 
+ @param completionBlock     完成回调
+ */
++ (void)getMeasureWithCmpletion:(void (^)(NSError *error, NSString *measureJson))completionBlock;
+
 #pragma mark - ATT
 
 /**

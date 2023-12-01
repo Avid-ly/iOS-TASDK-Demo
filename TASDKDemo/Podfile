@@ -6,7 +6,7 @@ platform :ios, '10.0'
 target 'TASDKDemo' do
 
 # TASDK
-pod 'TASDK', '4.1.1.2'
+pod 'TASDK', '4.1.1.3'
 
 # AppsFlyer
 pod 'AppsFlyerFramework'
