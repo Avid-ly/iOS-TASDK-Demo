@@ -14,11 +14,15 @@
 		</data>
 		<key>Headers/TraceAnalysisVersion.h</key>
 		<data>
-		MPsYvSezep09b6o29gEK6hXxyRo=
+		rnlouCNzwNzJDnMb9aWoz9yYfM8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KgM0AZi2wnfuYLIkcqioFLnvhq0=
+		qA8p6de14tyJpjFf0CaYuffMyTk=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		5c+BQr8s4ycsNBeEicmAlR9kFT8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -49,11 +53,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MPsYvSezep09b6o29gEK6hXxyRo=
+			rnlouCNzwNzJDnMb9aWoz9yYfM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			XSOtXHnGSVDaHvlBoBgH2f9FO2HXdjLRB7dmcVDH5HU=
+			dNg5iq0/9SER9chpSWMrylzZEeBS8sruGJdk+/TZbu4=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5c+BQr8s4ycsNBeEicmAlR9kFT8=
+			</data>
+			<key>hash2</key>
+			<data>
+			7SCJbTEY4m62E4HcIJYmgsoV5f9eySnwXWcvnCqahlA=
 			</data>
 		</dict>
 	</dict>
