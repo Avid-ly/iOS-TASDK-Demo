@@ -2,11 +2,11 @@ PODS:
   - AppsFlyerFramework (6.13.1):
     - AppsFlyerFramework/Main (= 6.13.1)
   - AppsFlyerFramework/Main (6.13.1)
-  - TASDK (4.1.1.4)
+  - TASDK (4.1.1.5)
 
 DEPENDENCIES:
   - AppsFlyerFramework
-  - TASDK (= 4.1.1.4)
+  - TASDK (= 4.1.1.5)
 
 SPEC REPOS:
   https://github.com/Avid-ly/iOS-CocoaPods-Spec.git:
@@ -16,8 +16,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AppsFlyerFramework: 971521cf5b890c2afeab2f2c91734547b8b169ca
-  TASDK: 3ea1df22df4a5a9af402cba27d319b041d93dd37
+  TASDK: edaa22e7edce9b0063114d307380bfb3a972226b
 
-PODFILE CHECKSUM: 24fd403d398d5dc246ec890d51fd56c1c33fdd6a
+PODFILE CHECKSUM: 94544f7ad35f55da7519192e88154316bde7e876
 
 COCOAPODS: 1.15.2

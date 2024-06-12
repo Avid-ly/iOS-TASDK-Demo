@@ -197,6 +197,7 @@
 				22C2987B1F04E72F0039998B /* Sources */,
 				22C2987C1F04E72F0039998B /* Frameworks */,
 				22C2987D1F04E72F0039998B /* Resources */,
+				C7D2917C01DB828F6782121B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +257,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		C7D2917C01DB828F6782121B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TASDKDemo/Pods-TASDKDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TASDK/TASDK_Privacy.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TASDK_Privacy.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TASDKDemo/Pods-TASDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F3B27BB5A07273A60174D0F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
