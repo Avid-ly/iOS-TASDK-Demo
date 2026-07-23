@@ -1,0 +1,6 @@
+module Pods_TASDKDemo {
+  umbrella header "Pods-TASDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

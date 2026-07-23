@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Avid-ly/iOS-CocoaPods-Spec.git'
+
+platform :ios, '13.0'
+
+# 全局解决资源重复冲突（关键代码）
+install! 'cocoapods', :disable_input_output_paths => true
+use_modular_headers!
+
+def firebase_pods
+  pod 'FirebaseAnalytics', '10.21.0'
+  pod 'FirebaseMessaging', '10.21.0'
+  pod 'TASDK', '4.2.0.4'
+end
+
+target 'TASDKDemo' do
+  firebase_pods
+end
+
+target 'NotificationServiceExtension' do
+  firebase_pods
+end
